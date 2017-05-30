@@ -1,91 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Bhushan's personal space</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-  </style>
+   <meta charset="utf-8">
+   <title>Bhushan's private space</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <script src="js/modernizr.js"></script>
+
+   <link rel="shortcut icon" href="favicon.ico" >
+
+ 
+
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="download.png" class="img-responsive img-circle margin" style="display:inline" alt="bhushan" width="250" height="250">
-  <p><h6>I am a coder. Currently a grad student, experiencing the fast paced Silicon Valley life. My interest vary from Technology to football strategy to philosophy to travelling to food. I could go on and on about it. I am a geek at heart who loves doing things in precise manner. I like my code clean and concise. I love to spend my time learning new things. 
+      <nav id="nav-wrap">
 
-  I am a software developer, a data philosopher who believes in solving problems of tomorrow through technology. And yeah, I love meeting new people. So let us connect thorugh various social media. 
-  </h6></p>
-</div>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#tech">Tech</a></li>
+           <!--  <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Bhushan's space.</h1>
+            <h3 style="color: #44CAF3;"><span>Developer/ Data Enthusiast / Absurdist / Traveller </span> .
+ <a class="smoothscroll" href="#about"><br><br>About Me</a></h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/n3o-Bhushan"><i class="fa fa-github-square"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/deshmukh-bhushan/"><i class="fa fa-linkedin-square"></i></a></li>
+               <li><a href= "https://www.last.fm/user/phib3r_optik"><i class="fa fa-lastfm" aria-hidden="true"></i></a></li>
+               
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-<!-- Footer -->
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
+      <div class="row">
+
+         <div class="four columns">
+
+            <img class="profile-pic"  src="./images/me.jpg" alt="Bhushan" />
+
+         </div>
+
+         <div class="eight columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Hey there, 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                     <span>Bhushan Deshmukh/span><br>
+                     <span>San Jose, CA, USA<br>
+                           
+                     </span><br>
+                     
+                     <span>bhushan.deshmukh2012@gmail.com</span>
+                  </p>
+
+               </div>
+               <h2>     Resume</h2>
+               <div class="columns download" style="margin-bottom: 0px;">
+                  <p>
+                     <a href="./resume/.pdf" class="button"><i style="color: #10E33A;" class="fa fa-download"></i>Resume Download</a>
+                  </p>
+               </div>
+               <div class="columns download">
+                  <p>
+                     
+                  </p>
+               </div>
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work Experience </span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>YADA -Yet Another Data Analytics Company</h3>
+                  <p class="info">Founder <span>&bull;</span> <em class="date">January 2016 - Present</em></p>
+
+                  <p>
+                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Senior Software Engineer</h3>
+                  <p class="info">Software Engineer<span>&bull;</span> <em class="date">July 2013 - July 2015</em></p>
+
+                  <p>
+                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+            <!-- Education -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>San Jose State University</h3>
+                  <h4>San Jose, California, USA</h4>
+                  <p class="info">Master in Science- Computer Software Engineering<span>&bull;</span> <em class="date">August 2016 - Present</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Mumbai</h3>
+                  <h5>Mumbai, India</h5>
+                  <p class="info">Bachelor of Engineering- Information<span>&bull;</span> <em class="date">August 2008 - May 2012</em></p>
+               </div>
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Education -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="bars">
+
+               <ul class="skills">
+
+               </ul>
+
+            </div><!-- end skill-bars -->
+
+            <div class="skillbox">
+            <p>
+            <h3>Other Skills</h3>
+            <p>
+               <ul class="other_skills_ul">
+
+               </ul>
+            </p>
+            </p>
+            <div>
+         </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+<section id="resume" name="portfolio" class="grey-section">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+            <hr>
+            <div class="three columns header-col">
+
+            <h1><span>Project</span></h1>
+         </div>
+         </div>         
+      </div> <!-- /section-intro-->
+      
+   <div class="row resume-timeline">
+
+         <div class="col-twelve resume-header">
+         </div> <!-- /resume-header -->
+         <div class="col-twelve">
+            <div class="timeline-wrap">
+               <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>YADA -Yet Another Data Analytics Co.</h2>
+                     <p>January 2016 - Present</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Code-Rectifier</h3>
+                     </div>
+                     <h2><a href="https://github.com/n3o-Bhushan/CodeRectifierDemo"><i class="fa fa-github"></i></a></h2>
+                     <p> 
+                        
+
+                        <div class="skillbox">
+                         <hr>
+
+                         <code>Pig</code>
+                         <code>HDFS</code>
+                         <code>Microsoft Azure HD</code>
+                         <code>JavaScript</code>
+                         <code>Chart.js</code>
+                         <code>HTML5</code>
+                          <code>MongoDB</code>
+                         <code>AngularJS</code>
+                          <code>Express.js</code>
+                         <code>Node.js</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->
+
+            </div> <!-- /timeline-wrap -->            
+         </div> <!-- /col-twelve -->         
+         <hr>
+      </div> <!-- /resume-timeline -->
+
+<!------------------------------>
+
+<div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Publication</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            
+         </div> <!-- main-col end -->
+      </div> <!-- End Education -->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+   <section id="about">
+
+      <div class="row" style="text-align: center;">
+    
+
+      </div> <!-- end .main-col -->
+   </section> <!-- About Section End-->
+</section>
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+              <li><a href="https://github.com/n3o-Bhushan"><i class="fa fa-github-square"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/deshmukh-bhushan/"><i class="fa fa-linkedin-square"></i></a></li>
+               <li><a href= "https://www.last.fm/user/phib3r_optik"><i class="fa fa-lastfm" aria-hidden="true"></i></a></li>
+                </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2017 Bhushan</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
 </html>
